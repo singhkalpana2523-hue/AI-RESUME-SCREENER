@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+/* LAYOUT */
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  min-height: 100vh;
+}
+
+/* PANELS */
+.left-panel,
+.right-panel {
+  padding: 40px;
+}
+
+/* CARD */
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.input-card {
+  max-width: 600px;
+}
+
+.app-title {
+  margin-bottom: 24px;
+}
+
+/* LABELS */
+.label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.upload-label {
+  margin-top: 20px;
+}
+
+/* TEXTAREA */
+.jd-textarea {
+  width: 100%;
+  min-height: 320px;
+  resize: vertical;
+  padding: 14px;
+  font-size: 14px;
+  line-height: 1.6;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+  outline: none;
+}
+
+.jd-textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* FILE */
+.file-row {
+  margin-bottom: 20px;
+}
+
+/* BUTTONS */
+button {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.download-btn {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+/* EMPTY STATE */
+.empty-state {
+  color: #94a3b8;
+  font-size: 18px;
+  padding-top: 120px;
+}
+
+/* RESULT */
+.score {
+  display: grid;
+  grid-template-columns: 120px 1fr 60px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+
+/* BREAKDOWN */
+.breakdown {
+  margin-top: 1rem;
+}
+
+.breakdown-row {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.breakdown-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+}
+
+/* TEXT */
+.explanation {
+  margin-top: 12px;
+  color: #cbd5f5;
+}
+
+.rewrite-section {
+  background: rgba(255,255,255,0.05);
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+
+.rewrite-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #60a5fa;
+}
+
+
+/* CHECKLIST */
+.checklist {
+  margin-top: 10px;
+  padding-left: 16px;
+}
+
+.checklist li {
+  margin-bottom: 6px;
+}
+/* Custom Progress Bar */
+.progress-wrapper {
+  width: 100%;
+  height: 10px;
+  background: #020617;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  transition: width 1s ease-in-out;
+}
+
+/* Colors */
+.progress-bar-fill.red {
+  background: linear-gradient(90deg, #ef4444, #dc2626);
+}
+
+.progress-bar-fill.yellow {
+  background: linear-gradient(90deg, #facc15, #eab308);
+}
+
+.progress-bar-fill.green {
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+}
+
+/* Score Badge */
+/* Score Row */
+.score-row {
+  margin-bottom: 20px;
+}
+
+.score-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.score-title {
+  font-weight: 600;
+}
+
+.score-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Color Coding */
+.score-red {
+  background: #ef4444;
+}
+
+.score-yellow {
+  background: #f59e0b;
+}
+
+.score-green {
+  background: #22c55e;
+}
+
+/* Animated Progress */
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  transition: width 1s ease-in-out;
+}
