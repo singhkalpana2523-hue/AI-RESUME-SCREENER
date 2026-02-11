@@ -129,7 +129,7 @@ smart_resume_screener/
 │       └── package.json
 ⚙️ Installation Guide
 1️⃣ Clone Repository
-git clone https://github.com/YOUR_USERNAME/ai-resume-screener.git
+git clone (https://github.com/singhkalpana2523-hue/AI-RESUME-SCREENER)
 cd ai-resume-screener
 
 2️⃣ Backend Setup
