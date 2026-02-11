@@ -45,6 +45,8 @@ Intelligent scoring logic
 Heuristic-based resume enhancement suggestions
 
 🏗️ Tech Stack
+
+
 🔹 Frontend
 
 React (Vite)
@@ -103,30 +105,6 @@ PDF report export
 
 Decision recommendation system
 
-📁 Project Structure
-smart_resume_screener/
-│
-├── backend/
-│   ├── app/
-│   │   ├── main.py
-│   │   ├── resume_parser.py
-│   │   ├── skill_extractor.py
-│   │   ├── matcher.py
-│   │   ├── scorer.py
-│   │   ├── explainer.py
-│   │   ├── rewrite.py
-│   │   ├── report.py
-│   │
-│   └── requirements.txt
-│
-├── frontend/
-│   └── resume-ui/
-│       ├── src/
-│       │   ├── App.jsx
-│       │   ├── api.js
-│       │   ├── index.css
-│       │
-│       └── package.json
 ⚙️ Installation Guide
 1️⃣ Clone Repository
 git clone (https://github.com/singhkalpana2523-hue/AI-RESUME-SCREENER)
@@ -210,6 +188,9 @@ Authentication system
 Database storage
 
 👨‍💻 Author
+
 KALPANA SINGH
+
 Developed as a Full Stack AI Resume Analysis Project
+
 Built using FastAPI + React
